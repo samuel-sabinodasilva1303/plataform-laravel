@@ -1,0 +1,80 @@
+{
+  "public/images/icons/Whatsapp.png": {
+    "file": "assets/Whatsapp-DeJqstu7.png",
+    "src": "public/images/icons/Whatsapp.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-eqRQjib3.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Widnq6A9.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-BLG5rFfw.css"
+    ],
+    "assets": [
+      "assets/Whatsapp-DeJqstu7.png",
+      "assets/algoritmux-logo-BbPQEAw5.png",
+      "assets/bluenote-logo-BXPdYNHm.png",
+      "assets/meta-logo-A8D8L8LK.png",
+      "assets/Column-ahz27EQq.png",
+      "assets/hugoFile-C5PGjCHt.png",
+      "assets/logo-ifL4nbOS.png",
+      "assets/new-hugo-DmzJ1EOn.png",
+      "assets/sobreHugo-DXQlWWZ8.png",
+      "assets/linke-Duo8aasN.png"
+    ]
+  },
+  "resources/src/images/Column.png": {
+    "file": "assets/Column-ahz27EQq.png",
+    "src": "resources/src/images/Column.png"
+  },
+  "resources/src/images/algoritmux-logo.png": {
+    "file": "assets/algoritmux-logo-BbPQEAw5.png",
+    "src": "resources/src/images/algoritmux-logo.png"
+  },
+  "resources/src/images/bluenote-logo.png": {
+    "file": "assets/bluenote-logo-BXPdYNHm.png",
+    "src": "resources/src/images/bluenote-logo.png"
+  },
+  "resources/src/images/blur-black-bg-double.png": {
+    "file": "assets/blur-black-bg-double-8DZrsLRG.png",
+    "src": "resources/src/images/blur-black-bg-double.png"
+  },
+  "resources/src/images/blur-black-bg.png": {
+    "file": "assets/blur-black-bg-CVQBw8S6.png",
+    "src": "resources/src/images/blur-black-bg.png"
+  },
+  "resources/src/images/hugoFile.png": {
+    "file": "assets/hugoFile-C5PGjCHt.png",
+    "src": "resources/src/images/hugoFile.png"
+  },
+  "resources/src/images/linke.png": {
+    "file": "assets/linke-Duo8aasN.png",
+    "src": "resources/src/images/linke.png"
+  },
+  "resources/src/images/logo.png": {
+    "file": "assets/logo-ifL4nbOS.png",
+    "src": "resources/src/images/logo.png"
+  },
+  "resources/src/images/meta-logo.png": {
+    "file": "assets/meta-logo-A8D8L8LK.png",
+    "src": "resources/src/images/meta-logo.png"
+  },
+  "resources/src/images/new-hugo.png": {
+    "file": "assets/new-hugo-DmzJ1EOn.png",
+    "src": "resources/src/images/new-hugo.png"
+  },
+  "resources/src/images/page_banner.png": {
+    "file": "assets/page_banner-BOf6dqCg.png",
+    "src": "resources/src/images/page_banner.png"
+  },
+  "resources/src/images/sobreHugo.png": {
+    "file": "assets/sobreHugo-DXQlWWZ8.png",
+    "src": "resources/src/images/sobreHugo.png"
+  }
+}

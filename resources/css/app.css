@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+blockquote{
+    margin-left: 2em;
+}
+p ol li{
+    list-style: auto;
+}
+.description .ck-editor__top {
+    display: none;
+}
+tr, td{
+    padding: 12px;
+    border: 1px solid black;
+}
+.company-card-bg {
+    @apply bg-white flex flex-col justify-center items-center gap-4 px-5 w-full h-[40rem];
+}
+
+.company-card-box {
+    @apply px-3 flex flex-col items-center;
+}
+
+.company-card-text {
+    @apply px-3 flex flex-col text-center items-center h-[20rem];
+}
+
+.service-card-bg {
+    @apply bg-white flex flex-col justify-center items-center w-10/12 h-[55rem] rounded-md shadow-md;
+}
+.carousel__viewport{
+    margin-top: 4em;
+}
+#cardService{
+    padding: 0;
+}
+#cardService .carousel .carousel__icon{
+    fill: #E8C925;
+}
+#cardService .carousel__prev {
+    left: 145px;
+    top: 25em;
+}
+.custom-titleTop{
+    position: relative;
+    bottom: 74px;
+    text-align: center;
+}
+.custom--pading-bottom{
+    padding-bottom: 2em;
+}
+.custom-opacity{
+    filter: blur(5px);
+    opacity: 0.7;
+}
+.margin-bottom-custom7{
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+.imagem-logo-custom{
+    position: relative;
+    bottom: 21em;
+    z-index: 1000000000000;
+    border-radius: 50%;
+    right: 24%;
+    transform: translate(-100%);
+}
+#cardService .carousel__next{
+    right: 170px;
+    top: 25em;
+}
+#cardService .carousel .carousel__viewport .carousel__track .carousel__slide .service-card-bg{
+    width: 100%;
+}
+#cardService .carousel .carousel__viewport .carousel__track .carousel__slide .service-card-title{
+    height: 0;
+}
+#cardService .carousel .carousel__viewport .carousel__track .carousel__slide .service-card-bg .service-card-description{
+    height: 0;
+}
+#cardService .carousel .carousel__viewport .carousel__track .carousel__slide .service-card-bg .service-card-description p{
+    position: relative;
+    bottom: 9em;
+    color: #ffff;
+    background: rgba(37,37,37,.85);
+    width: 60%;
+    border-top: 1px solid;
+    border-radius: 16px;
+    padding: 30px;
+}
+#cardService .carousel .carousel__viewport .carousel__track .carousel__slide .service-card-bg .w-full.h-full img{
+    position: relative;
+}
+.copy--custom{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.footer-title--custom{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.gap--custom{
+    gap: 5.5rem;
+}
+.custom-maxWidth{
+    max-width: 1120px;
+}
+.sobre-text--custom{
+    color: #FFF; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.custom-title--main{
+    width: 748px;
+    color: var(--White, #FFF);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 67.2px */
+}
+.padding-info--custom{
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+}
+.custom-experience{
+    color: var(--Dark-Text, #242424);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 128% */
+}
+.custom-sucess--custom{
+    color: var(--Dark-Text, #242424);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    width: 263px;
+    flex-shrink: 0;
+    line-height: 40px;
+}
+.header-main--custom{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-title-custom{
+    color: var(--White, #FFF);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.title-services--custom{
+    color: var(--Dark-Text, #242424);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+.cards-main--custom{
+    color: var(--Lighter-Text, #666);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
+.button-main--custom{
+    display: flex;
+    width: 328px;
+    min-width: 170px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 2px;
+
+}
+.main-button--custom{
+    color: var(--Dark-Text, #242424);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+.bg-blur-black-double{
+    background-size: cover;
+}
+.margin-top-custom{ 
+    margin-top: 7em;
+}
+#contact-conteudo{
+    border: 2px solid #d9d9d9cc;
+    width: 97%;
+    border-radius: 8px;
+    margin: 64px auto;
+    padding: 30px;
+}
+.input-custom{
+    background: #d9d9d9cc;
+    border: 0;
+    border-bottom: 2px solid #b1b0b0cc;
+}
+
+.service-card-icon {
+    @apply px-3 flex flex-col justify-center items-center h-[12rem] w-full;
+}
+
+.service-card-title {
+    @apply px-3 flex flex-col text-center justify-start items-center h-[6rem] w-full;
+}
+
+.service-card-description {
+    @apply px-3 flex flex-col justify-start items-center h-[12rem] w-full;
+}
+.custom-titleAsk--main{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 116.667% */
+}
+.gap-ask-custom{
+    gap: 1em;
+}
+.custo-ask--main{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.custom-servicesPage--main{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 116.667% */
+}
+.custom-bg--main{
+    display: flex;
+    height: 260px;
+    padding: 66px 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+@media (max-width: 600px) {
+    .custo-ask--main{
+        font-size: 20px;
+    }
+    .gap-ask-custom{
+        width: 356px;
+    }
+    .justify-center--mobile{
+        justify-content: center;
+    }
+    .text-mobile--center{
+        text-align: center;
+    }
+    .grid-cols-2 {
+        grid-template-columns: auto;
+    }
+    .custom-title--main{
+        width: 100%;
+        font-size: 27px;
+    }
+    .main-button--custom{
+        font-size: 13px;
+    }
+    .hanglouse{
+        text-align: center;
+    }
+    #cardService .carousel .carousel__viewport .carousel__track .carousel__slide .service-card-bg{
+        height: 81vh;
+    }
+    #cardService .carousel .carousel__viewport .carousel__track .carousel__slide .service-card-bg .w-full.h-full img{
+        max-width: max-content;
+        min-width: auto;
+        position: relative;
+        top: 0;
+    }
+    #cardService .carousel .carousel__viewport .carousel__track .carousel__slide .service-card-bg .service-card-description p{
+        width: 100%;
+        bottom: 10em;
+    }
+    .imagem-logo-custom{
+        top: 2em;
+        left: 6px;
+    }
+    #cardService .carousel__prev{
+        left: 0;
+        top: 11em;
+    }
+    #cardService .carousel__next{
+        right: 0;
+        top: 11em;
+
+    }
+    .carousel__slide{
+        margin: 0 0 -2px 0px;
+    }
+    .custom-padding-filter{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 15px;
+        gap: 2em;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .customPadding-nine{
+        padding-top: 11em;
+    }
+}
+.padding-customBottom{
+    padding-bottom: 9rem !important;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+}
+
+.whatsapp-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-button img:hover {
+    transform: scale(1.1);
+}
+/* Adicione este CSS ao seu arquivo TailwindCSS customizado */
+.progress-wrap {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    box-shadow: inset  0 0 0 2px rgba(0,0,0,0.1);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transition: all 200ms linear;
+}
+
+.progress-wrap.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.progress-wrap::after, .progress-wrap::before {
+    position: absolute;
+    font-family: 'unicons';
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    transition: all 200ms linear;
+}
+
+.progress-wrap::after {
+    content: '\e84b';
+    color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.progress-wrap:hover::after {
+    opacity: 0;
+}
+
+.progress-wrap::before {
+    content: '\e84b';
+    opacity: 0;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 2;
+}
+
+.progress-wrap:hover::before {
+    opacity: 1;
+}
+
+.progress-wrap svg path { 
+    fill: none; 
+}
+
+.progress-wrap svg.progress-circle path {
+    stroke: rgb(232 201 37 );
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear;
+}
+.ck.ck-button.ck-off.ck-file-dialog-button, .ck.ck-button.ck-off.ck-button_with-text.ck-dropdown__button{
+    display: none;
+}
