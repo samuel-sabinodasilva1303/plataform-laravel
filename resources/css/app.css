@@ -10,6 +10,9 @@
 blockquote{
     margin-left: 2em;
 }
+.h-cover-fit--custom{
+    object-fit: cover;
+}
 p ol li{
     list-style: auto;
 }

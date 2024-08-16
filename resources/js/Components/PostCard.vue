@@ -1,11 +1,11 @@
 <template>
-    <router-link :to="'/blog/postagem/' + post.id" href="#redirect-top" class="cursor-pointer w-[18rem] h-fit">
+    <router-link :to="'/blog/postagem/' + post.id" href="#redirect-top" class="cursor-pointer w-[18rem] h-fit h-cover-fit--custom">
         <div>
-            <img :src="post.image_path" :alt="'Imagem' + post.title" class="w-full h-[240px]">
+            <img :src="post.image_path" :alt="'Imagem' + post.title" class="w-full h-[240px] h-cover-fit--custom">
         </div>
         <div class="h-[20px]">
             <img class="relative bottom-3em" src="../../src/images/hugoFile.png">
-        </div>
+        </div>  
         <div>
             <small class="font-semibold text-gray-800" v-text="post.date_formatted"></small>
         </div>
