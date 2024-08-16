@@ -1,23 +1,13 @@
-# plataform-laravel
+# Basic template with Laravel & VueJS & TailwindCSS
 
-Este projeto inclui uma página de navegação e um painel de administração para cadastro de informações.
+## How to run
 
-## Instruções para Iniciar o Projeto
-
-1. Instale as dependências do projeto:
-    ```bash
-    npm install
-    composer install
-    ```
-
-2. Inicie a aplicação:
-    ```bash
-    npm run dev
-    php artisan serve
-    ```
-
-## Configuração do Banco de Dados
-
-Este projeto utiliza o SQLite como banco de dados. É necessário configurá-lo corretamente no projeto.
-
-- Edite o arquivo `.env` conforme necessário para acessar o banco de dados e outras configurações do projeto.
+- `composer install`
+- `npm install`
+- remove `env.example` and use `.env.example`
+- `cp .env.example .env`
+- remove `gitignore` and use `.gitignore`
+- change your values
+- `sail up`
+- `npm run dev`
+- access `localhost`

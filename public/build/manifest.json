@@ -4,12 +4,12 @@
     "src": "public/images/icons/Whatsapp.png"
   },
   "resources/css/app.css": {
-    "file": "assets/app-eqRQjib3.css",
+    "file": "assets/app-e53IOUlV.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-Widnq6A9.js",
+    "file": "assets/app-DtMqEk8v.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -68,10 +68,6 @@
   "resources/src/images/new-hugo.png": {
     "file": "assets/new-hugo-DmzJ1EOn.png",
     "src": "resources/src/images/new-hugo.png"
-  },
-  "resources/src/images/page_banner.png": {
-    "file": "assets/page_banner-BOf6dqCg.png",
-    "src": "resources/src/images/page_banner.png"
   },
   "resources/src/images/sobreHugo.png": {
     "file": "assets/sobreHugo-DXQlWWZ8.png",

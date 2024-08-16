@@ -52,6 +52,7 @@ tr, td{
     position: relative;
     bottom: 74px;
     text-align: center;
+    color: #ffff;
 }
 .custom--pading-bottom{
     padding-bottom: 2em;
@@ -63,6 +64,7 @@ tr, td{
 .margin-bottom-custom7{
     margin-bottom: 5em;
     margin-top: 2em;
+    color: #fff;
 }
 .imagem-logo-custom{
     position: relative;
@@ -218,8 +220,20 @@ tr, td{
 .bg-blur-black-double{
     background-size: cover;
 }
+.background-custom-black{
+    background: #000;
+}
+.margin-top-custom3{
+    margin-top: 3em;
+}
+.margin-custom-top8{
+    margin-top: 8em;
+}
 .margin-top-custom{ 
     margin-top: 7em;
+}
+.margin-top-custom-background{
+    background: #000;
 }
 #contact-conteudo{
     border: 2px solid #d9d9d9cc;

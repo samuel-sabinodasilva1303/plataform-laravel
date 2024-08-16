@@ -4,8 +4,8 @@
   <div>
     <div
       :class="{
-        'margin-top-custom bg-cover bg-center min-h-[30vh] flex justify-center items-center': true,
-        'bg-page-banner bg-no-repeat': title === 'Blog' || title === 'Contato'
+        'margin-top-custom margin-top-custom-background bg-cover bg-center min-h-[30vh] flex justify-center items-center': true,
+        'background-custom-black': title === 'Blog' || title === 'Contato'
       }"
     >
       <div class="w-full min-h-[37vh] flex justify-center items-center">

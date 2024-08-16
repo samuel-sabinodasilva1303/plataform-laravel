@@ -6,14 +6,15 @@
       <section :id="post.title + 'id' + post.id" class="w-full flex flex-col justify-center items-center">
         <div class="w-10/12 flex flex-col justify-center items-center xl:px-0 px-6 custom--pading-bottom">
 
-          <div class="w-full">
-            <img :src="post.image_path" :alt="'Imagem ' + post.title" class="absolute left-0 top-0 custom-opacity z-[-1] w-[1200px] pp:w-full h-[400px] pp:h-[400px]">
-          </div>
-          <div class="self-start xl:w-2/12 w-full custom--pading-bottom">
+          <div class="self-start margin-custom-top8 xl:w-2/12 w-full custom--pading-bottom">
             <span class="text-xl text-black">{{ post.date_formatted }}</span>
           </div>
 
-          <div class="w-full xl:text-xl">
+          <div class="w-full">
+            <img :src="post.image_path" :alt="'Imagem ' + post.title" class="w-[1200px] margin-top-custom3 pp:w-full h-[400px] pp:h-[400px]">
+          </div>
+
+          <div class="w-full xl:text-xl margin-top-custom3">
             <p v-html="post.content"></p>
           </div>
         </div>
